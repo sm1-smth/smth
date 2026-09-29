@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, follow">
+        <meta content="website" property="og:type">
+        <title>Something</title>
+        <style>
+            :root {
+                --fundo-cabecalho: rgb(3, 56, 109);
+                --fonte-cabecalho: white;
+                --fundo: white;
+                --fonte: rgb(29, 29, 29);
+            }
+            body {
+                box-sizing: border-box;
+                margin: 0;
+                background-color: var(--fundo);
+                color: var(--fonte);
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                text-align: center;
+            }
+            header {
+                background-color: var(--fundo-cabecalho);
+                color: var(--fonte-cabecalho);
+                padding: 2em;
+            }
+            footer {
+                background-color: aliceblue;
+                position: absolute;
+                bottom: 0;
+                width: 100vw;
+                max-height: 60px;
+                padding: 1.3em;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <hgroup>
+                <h1 aria-describedby="subtitulo">Meu blog de tecnologia</h1>
+                <p id="subtitulo">Vou compartilhar conhecimentos sobre tecnologia e programação</p>
+            </hgroup>
+        </header>
+        <main>
+            <article>
+                <h2>Meu primeiro post</h2>
+                <p>Por: sm1 smth</p>
+                <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia</p>
+            </article>
+        </main>
+        <footer>
+            <p>&copy; Copyright &mdash; Todos os direitos reservados</p>
+            <a href="#">Voltar ao topo</a>
+        </footer>
+    </body>
+</html>
